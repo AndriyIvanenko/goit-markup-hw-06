@@ -445,44 +445,43 @@
 						<use href="./images/icons.svg#close"></use>
 					</svg>
 				</button>
-				<div class="modal-request">
-					<h2 class="second-header">&nbspОставьте свои данные, мы вам перезвоним</h2>
-					<form class="modal-request-form" name="modal-request-form" autocomplete="off" novalidate>
-						<div class="request-form-item">
-							<label class="form-label" for="name">Имя</label>
-							<input type="text" name="name" id="name" />
-							<svg class="icon" width="18" height="18">
-								<use href="./images/icons.svg#name"></use>
-							</svg>
-						</div>
-						<div class="request-form-item">
-							<label class="form-label" for="phone">Телефон</label>
-							<input type="tel" name="phone" id="phone" />
-							<svg class="icon" width="18" height="18">
-								<use href="./images/icons.svg#phone"></use>
-							</svg>
-						</div>
-						<div class="request-form-item">
-							<label for="mail" class="form-label">Почта</label>
-							<input type="email" name="mail" id="mail" />
-							<svg class="icon" width="18" height="18">
-								<use href="./images/icons.svg#mail"></use>
-							</svg>
-						</div>
-						<div class="request-form-item">
-							<label for="comment" class="form-label">Комментарий</label>
-							<textarea id="comment" name="comment" rows="6" placeholder="Введите текст"></textarea>
-						</div>
 
-						<label class="request-form-item agreement">
-							<input class="checkbox" type="checkbox" name="agreement" value="agreement" />
-							<span class="check-icon"></span>
-							Соглашаюсь с рассылкой и принимаю&nbsp
-							<a class="agreement" href="">Условия договора</a>
-						</label>
-						<button type="submit">Отправить</button>
-					</form>
-				</div>
+				<form class="modal-request-form" name="modal-request-form" autocomplete="off" novalidate>
+					<h2 class="second-header">Оставьте свои данные, мы вам перезвоним</h2>
+					<div class="request-form-item">
+						<label class="form-label" for="name">Имя</label>
+						<input type="text" name="name" id="name" />
+						<svg class="icon" width="18" height="18">
+							<use href="./images/icons.svg#name"></use>
+						</svg>
+					</div>
+					<div class="request-form-item">
+						<label class="form-label" for="phone">Телефон</label>
+						<input type="tel" name="phone" id="phone" />
+						<svg class="icon" width="18" height="18">
+							<use href="./images/icons.svg#phone"></use>
+						</svg>
+					</div>
+					<div class="request-form-item">
+						<label for="mail" class="form-label">Почта</label>
+						<input type="email" name="mail" id="mail" />
+						<svg class="icon" width="18" height="18">
+							<use href="./images/icons.svg#mail"></use>
+						</svg>
+					</div>
+					<div class="request-form-item">
+						<label for="comment" class="form-label">Комментарий</label>
+						<textarea id="comment" name="comment" rows="6" placeholder="Введите текст"></textarea>
+					</div>
+
+					<label class="request-form-item agreement">
+						<input class="checkbox" type="checkbox" name="agreement" value="agreement" />
+						<span class="check-icon"></span>
+						Соглашаюсь с рассылкой и принимаю&nbsp
+						<a class="agreement" href="">Условия договора</a>
+					</label>
+					<button type="submit">Отправить</button>
+				</form>
 			</div>
 		</div>
 		<script src="./modal.js"></script>
