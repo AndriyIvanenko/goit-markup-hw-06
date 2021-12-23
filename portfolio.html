@@ -66,7 +66,31 @@
 				<div class="container">
 					<h1 class="main-header">Примеры работ</h1>
 
-					<ul class="buttons-list">
+					<input type="radio" name="filter" id="all" value="all" checked />
+					<input type="radio" name="filter" id="web-site" value="web-site" />
+					<input type="radio" name="filter" id="application" value="application" />
+					<input type="radio" name="filter" id="design" value="design" />
+					<input type="radio" name="filter" id="marketing" value="marketing" />
+
+					<ul class="filters-list">
+						<li class="filters-list-item">
+							<label for="all">Все</label>
+						</li>
+						<li class="filters-list-item">
+							<label for="web-site">Веб-сайты</label>
+						</li>
+						<li class="filters-list-item">
+							<label for="application">Приложения</label>
+						</li>
+						<li class="filters-list-item">
+							<label for="design">Дизайн</label>
+						</li>
+						<li class="filters-list-item">
+							<label for="marketing">Маркетинг</label>
+						</li>
+					</ul>
+
+					<!-- <ul class="buttons-list">
 						<li class="buttons-item">
 							<button class="button active-button" type="button">Все</button>
 						</li>
@@ -82,10 +106,10 @@
 						<li class="buttons-item">
 							<button class="button" type="button">Маркетинг</button>
 						</li>
-					</ul>
+					</ul> -->
 
 					<ul class="works-list">
-						<li class="works-list-item">
+						<li class="works-list-item" data-categoty="Веб-сайт">
 							<div class="work-img-container">
 								<img src="./images/work-example-1.jpg" alt="лаптоп" width="368" />
 								<div class="work-img-overlay">
@@ -101,7 +125,7 @@
 							</div>
 						</li>
 
-						<li class="works-list-item">
+						<li class="works-list-item" data-categoty="Дизайн">
 							<div class="work-img-container">
 								<img src="./images/work-example-2.jpg" alt="постер с баскетболистами" width="368" />
 								<div class="work-img-overlay">
@@ -117,7 +141,7 @@
 							</div>
 						</li>
 
-						<li class="works-list-item">
+						<li class="works-list-item" data-categoty="Приложение">
 							<div class="work-img-container">
 								<img src="./images/work-example-3.jpg" alt="логотип ресторана" width="368" />
 								<div class="work-img-overlay">
@@ -133,7 +157,7 @@
 							</div>
 						</li>
 
-						<li class="works-list-item">
+						<li class="works-list-item" data-categoty="Маркетинг">
 							<div class="work-img-container">
 								<img src="./images/work-example-4.jpg" alt="наушники" width="368" />
 								<div class="work-img-overlay">
@@ -149,7 +173,7 @@
 							</div>
 						</li>
 
-						<li class="works-list-item">
+						<li class="works-list-item" data-categoty="Приложение">
 							<div class="work-img-container">
 								<img src="./images/work-example-5.jpg" alt="две коробки" width="368" />
 								<div class="work-img-overlay">
@@ -165,7 +189,7 @@
 							</div>
 						</li>
 
-						<li class="works-list-item">
+						<li class="works-list-item" data-categoty="Веб-сайт">
 							<div class="work-img-container">
 								<img src="./images/work-example-6.jpg" alt="десктоп" width="368" />
 								<div class="work-img-overlay">
@@ -181,7 +205,7 @@
 							</div>
 						</li>
 
-						<li class="works-list-item">
+						<li class="works-list-item" data-categoty="Дизайн">
 							<div class="work-img-container">
 								<img src="./images/work-example-7.jpg" alt="журнал" width="368" />
 								<div class="work-img-overlay">
@@ -197,7 +221,7 @@
 							</div>
 						</li>
 
-						<li class="works-list-item">
+						<li class="works-list-item" data-categoty="Маркетинг">
 							<div class="work-img-container">
 								<img src="./images/work-example-8.jpg" alt="бирка" width="368" />
 								<div class="work-img-overlay">
@@ -213,7 +237,7 @@
 							</div>
 						</li>
 
-						<li class="works-list-item">
+						<li class="works-list-item" data-categoty="Приложение">
 							<div class="work-img-container">
 								<img src="./images/work-example-9.jpg" alt="работет на лаптопе" width="368" />
 								<div class="work-img-overlay">
